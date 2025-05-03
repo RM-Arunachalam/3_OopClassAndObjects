@@ -13,6 +13,9 @@ namespace Programs
             Console.WriteLine("cus Id=>"+customer.Id);//109
             Console.WriteLine(customer.getCustomerId());//109  //access methods using current object
 
+            Customer c2=null;
+            System.Console.WriteLine("customer2=>" + c2);// null
+
         }
     }
 }
